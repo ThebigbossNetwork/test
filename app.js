@@ -13,7 +13,7 @@ accordionContent.forEach((item, index) => {
             description.style.height = "0px";
             item.querySelector("i").classList.replace("fa-minus", "fa-plus");
         }
-        removeOpen(index); //calling the funtion and also passing the index number of the clicked header
+        removeOpen(index); ///calling the funtion and also passing the index number of the clicked header
     })
 })
 
